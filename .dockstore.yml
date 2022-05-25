@@ -2,7 +2,9 @@ version: 1.2
 workflows:
    - subclass: WDL
      primaryDescriptorPath: not_there.wdl
+     name: aaa
    - subclass: WDL
      primaryDescriptorPath: goleft_functions.wdl
+     name: bbb
      testParameterFiles:
          - goleft_terra.json
