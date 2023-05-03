@@ -4,3 +4,5 @@ workflows:
      primaryDescriptorPath: goleft_functions.wdl
      testParameterFiles:
          - goleft_terra.json
+     authors:
+         - name: "Mister Unique"
