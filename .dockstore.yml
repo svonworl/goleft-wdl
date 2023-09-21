@@ -3,6 +3,6 @@ workflows:
    - subclass: WDL
      primaryDescriptorPath: /goleft_functions.wdl
      testParameterFiles:
-         - goleft_terra.json
+         - /goleft_terra.json
      authors:
          - name: "Mister Unique"
